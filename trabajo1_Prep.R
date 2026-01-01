@@ -835,6 +835,7 @@ barplot(resultados_test_reg$RMSE_Test, names.arg = resultados_test_reg$Modelo,
         main = "RMSE en Test (Menor es mejor)", ylab = "RMSE")
 
 
+saveRDS(df, "D:/PrepDatos/df_limpio.rds")
 
 
 
